@@ -1,0 +1,85 @@
+4/26/2019 9:09:36 AM	This log contains information about the import schema operation into project 'Database' on computer 'SMICHELOTTI-SB2' by user 'stemi'.
+4/26/2019 9:09:36 AM	Import of database schema has started.
+4/26/2019 9:09:43 AM	Gathering database credentials
+4/26/2019 9:09:43 AM	Gathering database options
+4/26/2019 9:09:43 AM	Gathering generic database scoped configuration option
+4/26/2019 9:09:43 AM	Gathering users
+4/26/2019 9:09:43 AM	Gathering roles
+4/26/2019 9:09:43 AM	Gathering application roles
+4/26/2019 9:09:43 AM	Gathering role memberships
+4/26/2019 9:09:43 AM	Gathering filegroups
+4/26/2019 9:09:43 AM	Gathering full-text catalogs
+4/26/2019 9:09:43 AM	Gathering assemblies
+4/26/2019 9:09:43 AM	Gathering certificates
+4/26/2019 9:09:43 AM	Gathering asymmetric keys
+4/26/2019 9:09:43 AM	Gathering symmetric keys
+4/26/2019 9:09:43 AM	Gathering encrypted symmetric keys
+4/26/2019 9:09:43 AM	Gathering schemas
+4/26/2019 9:09:43 AM	Gathering XML schema collections
+4/26/2019 9:09:43 AM	Gathering user-defined data types
+4/26/2019 9:09:43 AM	Gathering user-defined types
+4/26/2019 9:09:43 AM	Gathering table types
+4/26/2019 9:09:43 AM	Gathering unique keys for table types
+4/26/2019 9:09:43 AM	Gathering primary keys for table types
+4/26/2019 9:09:43 AM	Gathering indexes for table types
+4/26/2019 9:09:43 AM	Gathering check constraints for table types
+4/26/2019 9:09:43 AM	Gathering default constraints for table types
+4/26/2019 9:09:43 AM	Gathering partition functions
+4/26/2019 9:09:43 AM	Gathering partition schemes
+4/26/2019 9:09:43 AM	Gathering functions
+4/26/2019 9:09:43 AM	Gathering encrypted functions
+4/26/2019 9:09:43 AM	Gathering aggregates
+4/26/2019 9:09:43 AM	Gathering procedures
+4/26/2019 9:09:43 AM	Gathering encrypted procedures
+4/26/2019 9:09:43 AM	Gathering tables
+4/26/2019 9:09:44 AM	Gathering primary keys
+4/26/2019 9:09:44 AM	Gathering unique constraints
+4/26/2019 9:09:44 AM	Gathering foreign keys
+4/26/2019 9:09:44 AM	Gathering default constraints
+4/26/2019 9:09:44 AM	Gathering check constraints
+4/26/2019 9:09:44 AM	Gathering views
+4/26/2019 9:09:44 AM	Gathering encrypted views
+4/26/2019 9:09:44 AM	Gathering indexes
+4/26/2019 9:09:44 AM	Gathering statistics
+4/26/2019 9:09:44 AM	Gathering full-text index stoplists
+4/26/2019 9:09:44 AM	Gathering search property lists
+4/26/2019 9:09:44 AM	Gathering search properties
+4/26/2019 9:09:44 AM	Gathering full-text indexes
+4/26/2019 9:09:44 AM	Gathering column store indexes
+4/26/2019 9:09:44 AM	Gathering spatial indexes
+4/26/2019 9:09:44 AM	Gathering XML indexes
+4/26/2019 9:09:44 AM	Gathering Selective XML indexes
+4/26/2019 9:09:44 AM	Gathering encrypted triggers
+4/26/2019 9:09:44 AM	Gathering triggers
+4/26/2019 9:09:44 AM	Gathering encrypted and clr ddl triggers
+4/26/2019 9:09:44 AM	Gathering ddl triggers
+4/26/2019 9:09:44 AM	Gathering synonyms
+4/26/2019 9:09:44 AM	Gathering defaults
+4/26/2019 9:09:44 AM	Gathering data constraint uddt bindings
+4/26/2019 9:09:44 AM	Gathering rules
+4/26/2019 9:09:44 AM	Gathering data constraint uddt bindings
+4/26/2019 9:09:44 AM	Gathering message types
+4/26/2019 9:09:44 AM	Gathering queues
+4/26/2019 9:09:44 AM	Gathering contracts
+4/26/2019 9:09:44 AM	Gathering services
+4/26/2019 9:09:44 AM	Gathering event notifications
+4/26/2019 9:09:44 AM	Gathering remote service bindings
+4/26/2019 9:09:44 AM	Gathering broker priorities
+4/26/2019 9:09:44 AM	Gathering signatures
+4/26/2019 9:09:44 AM	Gathering data compression options
+4/26/2019 9:09:44 AM	Gathering sequence types
+4/26/2019 9:09:44 AM	Gathering security policies
+4/26/2019 9:09:44 AM	Gather column encryption keys
+4/26/2019 9:09:44 AM	Gathering column master keys
+4/26/2019 9:09:44 AM	Gathering external data sources
+4/26/2019 9:09:44 AM	Gathering external file formats
+4/26/2019 9:09:44 AM	Gathering external tables
+4/26/2019 9:09:44 AM	Gathering extended properties
+4/26/2019 9:09:44 AM	Gathering credentials
+4/26/2019 9:09:44 AM	Gathering logins
+4/26/2019 9:09:44 AM	Gathering server audits
+4/26/2019 9:09:44 AM	Scanning project for duplicate elements
+4/26/2019 9:09:44 AM	Finished duplicate element processing
+4/26/2019 9:09:44 AM	Finished importing database.
+4/26/2019 9:09:44 AM	A summary of the import was saved to the following location: C:\Users\stemi\Dropbox\P-P\Presentations\Pluralsight\pscourse-dapper\src\working\DapperDemo\Database\Import Schema Logs\Database_20190426010936.log
+4/26/2019 9:09:44 AM	Click Finish to continue...

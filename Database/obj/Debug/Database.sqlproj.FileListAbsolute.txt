@@ -1,0 +1,6 @@
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\Database\bin\Debug\Database.dacpac
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\Database\bin\Debug\Database.dll
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\Database\bin\Debug\Database.pdb
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\Database\obj\Debug\Database.sqlprojAssemblyReference.cache
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\Database\obj\Debug\Database.dll
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\Database\obj\Debug\Database.pdb

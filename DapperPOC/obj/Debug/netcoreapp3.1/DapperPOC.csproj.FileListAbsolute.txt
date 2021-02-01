@@ -1,0 +1,8 @@
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\DapperPOC\bin\Debug\netcoreapp3.1\DapperPOC.deps.json
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\DapperPOC\bin\Debug\netcoreapp3.1\DapperPOC.dll
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\DapperPOC\obj\Debug\netcoreapp3.1\DapperPOC.csprojAssemblyReference.cache
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\DapperPOC\obj\Debug\netcoreapp3.1\DapperPOC.AssemblyInfoInputs.cache
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\DapperPOC\obj\Debug\netcoreapp3.1\DapperPOC.AssemblyInfo.cs
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\DapperPOC\bin\Debug\netcoreapp3.1\DapperPOC.pdb
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\DapperPOC\obj\Debug\netcoreapp3.1\DapperPOC.dll
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\DapperPOC\obj\Debug\netcoreapp3.1\DapperPOC.pdb
