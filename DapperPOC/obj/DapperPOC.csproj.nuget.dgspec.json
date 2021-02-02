@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\Dappar\\getting-started-dapper\\02\\demos\\demos\\after\\DapperDemo\\DapperPOC\\DapperPOC.csproj": {}
+    "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\DapperCourse\\DapperPOC\\DapperPOC\\DapperPOC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\Dappar\\getting-started-dapper\\02\\demos\\demos\\after\\DapperDemo\\DapperPOC\\DapperPOC.csproj": {
+    "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\DapperCourse\\DapperPOC\\DapperPOC\\DapperPOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\Dappar\\getting-started-dapper\\02\\demos\\demos\\after\\DapperDemo\\DapperPOC\\DapperPOC.csproj",
+        "projectUniqueName": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\DapperCourse\\DapperPOC\\DapperPOC\\DapperPOC.csproj",
         "projectName": "DapperPOC",
-        "projectPath": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\Dappar\\getting-started-dapper\\02\\demos\\demos\\after\\DapperDemo\\DapperPOC\\DapperPOC.csproj",
+        "projectPath": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\DapperCourse\\DapperPOC\\DapperPOC\\DapperPOC.csproj",
         "packagesPath": "C:\\Users\\heba.magdy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\Dappar\\getting-started-dapper\\02\\demos\\demos\\after\\DapperDemo\\DapperPOC\\obj\\",
+        "outputPath": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\DapperCourse\\DapperPOC\\DapperPOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,6 +49,10 @@
             "Dapper.Contrib": {
               "target": "Package",
               "version": "[1.60.1, )"
+            },
+            "Dapper.ParameterExtensions": {
+              "target": "Package",
+              "version": "[2018.12.7.1, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

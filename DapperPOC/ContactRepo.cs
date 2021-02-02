@@ -18,7 +18,7 @@ namespace DapperPOC
         {
             var command = "Insert into Contacts( FirstName, LastName, Email, Company, Title) Values( @FName, @LastName, @Email, @Company, @Title)" +
                 "Select Cast(SCOPE_IDENTITY()as int)";
-            var id = db.Query<int>(command, contact).Single();
+            var id = db.Query(command, contact).Single();
             return id;
         }
 

@@ -30,6 +30,18 @@
           "lib/netstandard2.0/Dapper.Contrib.dll": {}
         }
       },
+      "Dapper.ParameterExtensions/2018.12.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "1.50.5"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/DapperParameters.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/DapperParameters.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -545,6 +557,23 @@
         "lib/netstandard1.3/Dapper.Contrib.xml",
         "lib/netstandard2.0/Dapper.Contrib.dll",
         "lib/netstandard2.0/Dapper.Contrib.xml"
+      ]
+    },
+    "Dapper.ParameterExtensions/2018.12.7.1": {
+      "sha512": "by5MLxMRWNe3kqB7+bHk3G0e0+pA3/sJsoGhIL5BUXXBvDoRfuLOIs+Pdm5mjSLwvjTrdAu8GYVqTD9PjJ9wGw==",
+      "type": "package",
+      "path": "dapper.parameterextensions/2018.12.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.parameterextensions.2018.12.7.1.nupkg.sha512",
+        "dapper.parameterextensions.nuspec",
+        "lib/net451/DapperParameters.dll",
+        "lib/net46/DapperParameters.dll",
+        "lib/net47/DapperParameters.dll",
+        "lib/netcoreapp2.0/DapperParameters.dll",
+        "lib/netcoreapp2.1/DapperParameters.dll",
+        "lib/netstandard2.0/DapperParameters.dll"
       ]
     },
     "Microsoft.CSharp/4.3.0": {
@@ -2447,6 +2476,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Dapper >= 1.60.1",
       "Dapper.Contrib >= 1.60.1",
+      "Dapper.ParameterExtensions >= 2018.12.7.1",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -2457,11 +2487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\Dappar\\getting-started-dapper\\02\\demos\\demos\\after\\DapperDemo\\DapperPOC\\DapperPOC.csproj",
+      "projectUniqueName": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\DapperCourse\\DapperPOC\\DapperPOC\\DapperPOC.csproj",
       "projectName": "DapperPOC",
-      "projectPath": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\Dappar\\getting-started-dapper\\02\\demos\\demos\\after\\DapperDemo\\DapperPOC\\DapperPOC.csproj",
+      "projectPath": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\DapperCourse\\DapperPOC\\DapperPOC\\DapperPOC.csproj",
       "packagesPath": "C:\\Users\\heba.magdy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\Dappar\\getting-started-dapper\\02\\demos\\demos\\after\\DapperDemo\\DapperPOC\\obj\\",
+      "outputPath": "C:\\Users\\heba.magdy\\Desktop\\NewKnowledgeForOntellus\\DapperCourse\\DapperPOC\\DapperPOC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2499,6 +2529,10 @@
           "Dapper.Contrib": {
             "target": "Package",
             "version": "[1.60.1, )"
+          },
+          "Dapper.ParameterExtensions": {
+            "target": "Package",
+            "version": "[2018.12.7.1, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",

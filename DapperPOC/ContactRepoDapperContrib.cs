@@ -10,7 +10,6 @@ using System.Transactions;
 namespace DapperPOC
 {
     //here I use dapper.contrib which is an add-on for dapper to handle basic sql statments(it will generate them for you)
-
     //like insert update delete select
     public class ContactRepoDapperContrib : IContactRepo
     {

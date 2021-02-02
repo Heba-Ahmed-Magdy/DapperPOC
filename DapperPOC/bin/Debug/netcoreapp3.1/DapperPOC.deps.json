@@ -10,6 +10,7 @@
         "dependencies": {
           "Dapper": "1.60.1",
           "Dapper.Contrib": "1.60.1",
+          "Dapper.ParameterExtensions": "2018.12.7.1",
           "System.Data.SqlClient": "4.8.2"
         },
         "runtime": {
@@ -39,6 +40,17 @@
           "lib/netstandard2.0/Dapper.Contrib.dll": {
             "assemblyVersion": "1.60.0.0",
             "fileVersion": "1.60.1.8373"
+          }
+        }
+      },
+      "Dapper.ParameterExtensions/2018.12.7.1": {
+        "dependencies": {
+          "Dapper": "1.60.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/DapperParameters.dll": {
+            "assemblyVersion": "2018.12.7.1",
+            "fileVersion": "2018.12.7.1"
           }
         }
       },
@@ -354,6 +366,13 @@
       "sha512": "sha512-TNx/9nblWcia6Ibl9xzJEkt4D6cpTKY4qCBfPIYDvTTLA3M0FSK4xIZJifxZpxxZsEEFyi8FTx8jSfwx13dh1g==",
       "path": "dapper.contrib/1.60.1",
       "hashPath": "dapper.contrib.1.60.1.nupkg.sha512"
+    },
+    "Dapper.ParameterExtensions/2018.12.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-by5MLxMRWNe3kqB7+bHk3G0e0+pA3/sJsoGhIL5BUXXBvDoRfuLOIs+Pdm5mjSLwvjTrdAu8GYVqTD9PjJ9wGw==",
+      "path": "dapper.parameterextensions/2018.12.7.1",
+      "hashPath": "dapper.parameterextensions.2018.12.7.1.nupkg.sha512"
     },
     "Microsoft.CSharp/4.3.0": {
       "type": "package",
