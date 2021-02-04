@@ -71,10 +71,10 @@
     <Build Include="dbo\Stored Procedures\DeleteAddress.sql" />
     <Build Include="dbo\Stored Procedures\DeleteContact.sql" />
     <Build Include="dbo\Stored Procedures\GetContact.sql" />
-    <Build Include="dbo\Stored Procedures\SaveAddress.sql" />
-    <Build Include="dbo\Stored Procedures\SaveContact.sql" />
     <Build Include="Script.PostDeployment-seed-data.sql" />
     <Build Include="dbo\Stored Procedures\mySpInsertContacts.sql" />
     <Build Include="dbo\UserdefinedDataTypes\TablesTypes\ud_t_Contact.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateContact.sql" />
+    <Build Include="SeedData.sql" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[UDT_Contact] (User-Defined Table Type)
+     Create
+       [dbo].[UDT_Contact] (User-Defined Table Type)
+
+** Supporting actions
+     Drop
+       [dbo].[mySpInsertContacts] (Procedure)
+       [dbo].[UpdateContact] (Procedure)
+     Create
+       [dbo].[mySpInsertContacts] (Procedure)
+       [dbo].[UpdateContact] (Procedure)

@@ -11,7 +11,7 @@
 --*/
 
 --/***** SEED DATA FOR STATES TABLE *****/
---INSERT [dbo].[States] ([Id], [StateName]) VALUES (1, N'Alabama')
+--INSERT [dbo].[States] ([Id], [StateName]) VALUES (1, N'Alabama');
 --INSERT [dbo].[States] ([Id], [StateName]) VALUES (2, N'Alaska')
 --INSERT [dbo].[States] ([Id], [StateName]) VALUES (4, N'Arizona')
 --INSERT [dbo].[States] ([Id], [StateName]) VALUES (5, N'Arkansas')

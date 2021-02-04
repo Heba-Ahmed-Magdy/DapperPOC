@@ -18,7 +18,7 @@ namespace DapperApp
         {
             #region [A real bulk insert]
             Console.WriteLine("****************Real Bulk insert using SP and userdefined table type ****************");
-            var db2 = new DapperRepoSP("server=.;database=DapperPOC;Trusted_Connection=Yes;");
+            var dbSP = new DapperRepoSP("server=.;database=DapperPOC;Trusted_Connection=Yes;");
 
             var contactsSP = new List<UT_Contact>
             {
@@ -27,8 +27,29 @@ namespace DapperApp
             };
            
 
-            Console.WriteLine($"{db2.Insert(contactsSP)}");
+            Console.WriteLine($"{dbSP.Insert(contactsSP)}");
+
             #endregion
+
+            Console.WriteLine(JsonConvert.SerializeObject(dbSP.GetAll(),Formatting.Indented));
+
+            Console.WriteLine("*************Get contacts for the given Ids comma seperated****************");
+            var ids = new List<int>();
+            Array.ForEach(Console.ReadLine().Split(','), (e) => { e = e.Trim(); ids.Add(int.Parse(e)); });
+            contactsSP = dbSP.GetById(ids);
+
+            if(contactsSP.Any())
+            {
+                foreach (var contact in contactsSP)
+                {
+                    if (contact.Id == 1) { contact.FirstName = "Ramy1"; }
+                    if (contact.Id == 2) { contact.FirstName = "HAny1"; }
+                }
+                Console.WriteLine($"{dbSP.Update(contactsSP.Where(c=> c.Id==1 || c.Id == 2).ToList())}");
+            }
+
+            Console.WriteLine(JsonConvert.SerializeObject(dbSP.GetAll(), Formatting.Indented));
+
         }
 
         public void DummyMethod()

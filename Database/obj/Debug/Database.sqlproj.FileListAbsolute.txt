@@ -4,3 +4,13 @@ C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dappe
 C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\Database\obj\Debug\Database.sqlprojAssemblyReference.cache
 C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\Database\obj\Debug\Database.dll
 C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\Dappar\getting-started-dapper\02\demos\demos\after\DapperDemo\Database\obj\Debug\Database.pdb
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\bin\Debug\Database.dacpac
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\obj\Debug\Database.sqlprojAssemblyReference.cache
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\obj\Debug\Model.xml
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\obj\Debug\refactor.xml
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\obj\Debug\postdeploy.sql
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\obj\Debug\predeploy.sql
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\obj\Debug\Database.dll
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\obj\Debug\Database.pdb
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\bin\Debug\Database.dll
+C:\Users\heba.magdy\Desktop\NewKnowledgeForOntellus\DapperCourse\DapperPOC\Database\bin\Debug\Database.pdb

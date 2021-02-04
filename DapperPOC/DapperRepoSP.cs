@@ -19,8 +19,28 @@ namespace DapperPOC
         public int Insert(List<UT_Contact> contacts)
         {
             var parameters = new DynamicParameters();
-            parameters.AddTable("@contacts", "ud_t_Contact", contacts);
+            parameters.AddTable("@contacts", "UDT_Contact", contacts);
             return db.Query<int>("mySpInsertContacts", parameters, commandType: CommandType.StoredProcedure).First();
+        }
+
+        public int Update(List<UT_Contact> contacts)
+        {
+            var parameters = new DynamicParameters();
+            parameters.AddTable("@contacts", "UDT_Contact", contacts);
+            return db.Query<int>("UpdateContact", parameters, commandType: CommandType.StoredProcedure).First();
+        }
+
+
+        public List<UT_Contact> GetById (List<int> ids)
+        {
+            var command = "Select * from Contacts where Id in @ids";
+            return db.Query<UT_Contact>(command, new { ids }).ToList();
+        }
+
+        public List<UT_Contact> GetAll()
+        {
+            var command = "Select * from Contacts";
+            return db.Query<UT_Contact>(command).ToList();
         }
 
     }

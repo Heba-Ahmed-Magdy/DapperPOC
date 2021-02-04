@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[UDT_Contact] (User-Defined Table Type)
+       [dbo].[Addresses] (Table)
+       [dbo].[Contacts] (Table)
+       [dbo].[States] (Table)
+       [dbo].[FK_Addresses_Contacts] (Foreign Key)
+       [dbo].[FK_Addresses_States] (Foreign Key)
+       [dbo].[DeleteAddress] (Procedure)
+       [dbo].[DeleteContact] (Procedure)
+       [dbo].[GetContact] (Procedure)
+       [dbo].[mySpInsertContacts] (Procedure)
+       [dbo].[UpdateContact] (Procedure)
+
+** Supporting actions
