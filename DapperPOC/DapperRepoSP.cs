@@ -22,7 +22,7 @@ namespace DapperPOC
             parameters.AddTable("@contacts", "UDT_Contact", contacts);
             return db.Query<int>("mySpInsertContacts", parameters, commandType: CommandType.StoredProcedure).First();
         }
-
+        //2----------paramter extention ".AddTable()"
         public int Update(List<UT_Contact> contacts)
         {
             var parameters = new DynamicParameters();

@@ -1,0 +1,23 @@
+{
+//1-----System.Data.SqlClient
+
+/*old versions from System.Data.SqlClient throws his exception "System.NotSupportedException: Enlisting in Ambient transactions is not supported." take care
+  
+   * When opening sql connection inside TransactionScope its giving "Enlisting in Ambient transactions is not supported"
+   * So we need to install higher version od sql Client where this issue is solved
+  */
+
+//2----------paramter extention ".AddTable()"
+/*
+  To help me doing a real bulk insert it helps me to do
+  mapping the lst c# object to the user defined table type od sql
+
+   public int Update(List<UT_Contact> contacts)
+        {
+            var parameters = new DynamicParameters();
+            parameters.AddTable("@contacts", "UDT_Contact", contacts);
+            return db.Query<int>("UpdateContact", parameters, commandType: CommandType.StoredProcedure).First();
+        }
+  */
+
+}

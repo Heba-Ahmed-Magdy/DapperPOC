@@ -18,6 +18,10 @@ namespace DapperPOC
         public int Add(Contact contact)
         {
             //old versions from System.Data.SqlClient throws his exception "System.NotSupportedException: Enlisting in Ambient transactions is not supported." take care
+            /*
+             * When opening sql connection inside TransactionScope its giving "Enlisting in Ambient transactions is not supported"
+             * So we need to install higher version od sql Client where this issue is solved
+             */
             using var transaction = new TransactionScope();
             var id = (int)db.Insert(contact);
             try
