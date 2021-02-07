@@ -48,8 +48,15 @@ namespace DapperPOC
         }
         public int BulkInsert(List<Contact> contacts)
         {
-            //Once I pass a list to the Insert method, it will still doing only insertion for one row 
+            //Once I pass a list to the Insert method, it will still doing only one insertion for one row 
             //but it will repeate it with the number of objects in the passing lst
+            /*
+             *so this way isn't a true bulk insert but in this case you will pass a list og objects and dapper 
+             * will be responsible on repeatin the insert statment n times
+             * ex: for list contains 2 objects it will be
+             *     Insert into employees values(......)
+             *     Insert into employees values(......)
+            */
             var id = (int) db.Insert(contacts);
             return id;
         }

@@ -15,7 +15,7 @@ namespace DapperPOC
         {
             db = new SqlConnection(conn);
         }
-
+        // https://www.nuget.org/packages/Dapper.ParameterExtensions/0.2.0
         public int Insert(List<UT_Contact> contacts)
         {
             var parameters = new DynamicParameters();
@@ -41,6 +41,11 @@ namespace DapperPOC
         {
             var command = "Select * from Contacts";
             return db.Query<UT_Contact>(command).ToList();
+        }
+        public int GetCountForAll()
+        {
+            var command = "Select count(*) from contacts";
+            return db.Query<int>(command).FirstOrDefault();
         }
 
     }

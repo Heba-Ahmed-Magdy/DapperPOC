@@ -68,9 +68,7 @@
     <Build Include="dbo\Tables\States.sql" />
     <Build Include="dbo\Tables\Contacts.sql" />
     <Build Include="dbo\Tables\Addresses.sql" />
-    <Build Include="dbo\Stored Procedures\DeleteAddress.sql" />
     <Build Include="dbo\Stored Procedures\DeleteContact.sql" />
-    <Build Include="dbo\Stored Procedures\GetContact.sql" />
     <Build Include="Script.PostDeployment-seed-data.sql" />
     <Build Include="dbo\Stored Procedures\mySpInsertContacts.sql" />
     <Build Include="dbo\UserdefinedDataTypes\TablesTypes\ud_t_Contact.sql" />

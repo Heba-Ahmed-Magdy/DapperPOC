@@ -16,9 +16,12 @@ namespace DapperApp
         static IConfigurationRoot config;
         static void Main(string[] args)
         {
+            var dbSP = new DapperRepoSP("server=.;database=DapperPOC;Trusted_Connection=Yes;");
+            
+            Console.WriteLine($"Total number of contacts = {dbSP.GetCountForAll()}");
+         
             #region [A real bulk insert]
             Console.WriteLine("****************Real Bulk insert using SP and userdefined table type ****************");
-            var dbSP = new DapperRepoSP("server=.;database=DapperPOC;Trusted_Connection=Yes;");
 
             var contactsSP = new List<UT_Contact>
             {
@@ -30,25 +33,36 @@ namespace DapperApp
             Console.WriteLine($"{dbSP.Insert(contactsSP)}");
 
             #endregion
+          
+            Console.WriteLine($"Total number of contacts = {dbSP.GetCountForAll()}");
 
-            Console.WriteLine(JsonConvert.SerializeObject(dbSP.GetAll(),Formatting.Indented));
+            #region [Update for passing lst]
+
+            Console.WriteLine(JsonConvert.SerializeObject(dbSP.GetAll(), Formatting.Indented));
 
             Console.WriteLine("*************Get contacts for the given Ids comma seperated****************");
             var ids = new List<int>();
             Array.ForEach(Console.ReadLine().Split(','), (e) => { e = e.Trim(); ids.Add(int.Parse(e)); });
             contactsSP = dbSP.GetById(ids);
 
-            if(contactsSP.Any())
+            if (contactsSP.Any())
             {
                 foreach (var contact in contactsSP)
                 {
-                    if (contact.Id == 1) { contact.FirstName = "Ramy1"; }
-                    if (contact.Id == 2) { contact.FirstName = "HAny1"; }
+                    if (contact.Id == 1) { contact.FirstName = "Ramy2"; }
+                    if (contact.Id == 2) { contact.FirstName = "HAny2"; }
                 }
-                Console.WriteLine($"{dbSP.Update(contactsSP.Where(c=> c.Id==1 || c.Id == 2).ToList())}");
+                Console.WriteLine($"{dbSP.Update(contactsSP.Where(c => c.Id == 1 || c.Id == 2).ToList())}");
             }
 
             Console.WriteLine(JsonConvert.SerializeObject(dbSP.GetAll(), Formatting.Indented));
+
+            #endregion
+
+
+            #region [handling insertion of 1:M relationship bet. Student and course]
+
+            #endregion
 
         }
 
